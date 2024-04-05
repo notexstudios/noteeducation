@@ -1,0 +1,147 @@
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  position: relative;
+}
+
+#backgroundvideo{
+  position:absolute;
+  display: block;
+  z-index:-1;
+  width:100%;
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  padding:2.5rem;
+  padding-top:0rem;
+  font-size:1.5rem;
+  list-style: none;
+  
+}
+
+.nava,.signloge{
+  bottom:0%;
+  text-decoration: none;
+  color:#222288;
+  font-weight: 500;
+}
+
+.signlog{
+  display:flex;
+  justify-content: space-between;
+  
+  
+}
+
+.navael{
+  display:flex;
+  width:30vw;
+  height:6.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signloge{
+  
+  text-align: center;
+  margin-top:0;
+  background-color:#88bdfb;
+  color:#ba2c49;
+  font-style: bold;
+  display:block;
+  margin-left:2rem;
+  padding:7px;
+  border-radius:7px;
+  margin-top:1.7rem;
+  background-image: linear-gradient(rgb(5, 180, 249),rgb(50, 210, 240),rgb(5, 180, 240));
+}
+
+.signloge:hover{
+  background-image: linear-gradient(rgb(0, 250, 96),rgb(50, 210, 240),rgb(0, 245, 135));
+  padding:8px;
+
+}
+
+#logo{
+  width:12rem;
+  position:absolute;
+  margin-top:0.5rem;
+  animation-name:topdown;
+  animation-duration: 1.5s;
+  
+}
+
+.logos{
+  align-items:end;
+}
+
+
+
+main{
+  width:100%;
+  height:50vh;
+  
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainheader{
+  color:#222288;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display:block;
+  font-size:4rem;
+  margin-left:30rem;
+  margin-right: 5rem;
+  justify-content: right;
+  margin-top:3rem ;
+  align-items: center;
+  text-align:right;
+  animation-name:downtop;
+  animation-duration: 1.5s;
+
+}
+
+.mainheader:after{
+  display:inline;
+  color:black;
+  font-size:4.1rem;
+}
+
+
+
+h2{
+  animation-name:downtop;
+  animation-duration: 1.7s;
+  justify-content: right;
+  margin-top:1rem;
+  margin-left:40rem;
+  margin-right:5rem;
+  color:#ec4e88;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  animation-name:topdown;
+  animation-duration: 1.5s;
+  
+}
+
+@keyframes topdown{
+  from{
+    transform:translateY(-150px);
+  }
+}
+
+@keyframes downtop{
+  from{
+    transform:translateY(200px);
+  }
+}
