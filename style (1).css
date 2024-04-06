@@ -12,6 +12,11 @@ span{
   color:var(--primary-color);
 }
 
+.home p{
+  font-size:1.5rem;
+  font-weight:bold;
+}
+
 *{
   
   font-family: 'DM Sans', sans-serif;
